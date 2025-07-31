@@ -1,0 +1,32 @@
+@media (max-width: 568px) {
+  .carousel .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .carousel .col-md-6 {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .carousel h1 {
+    font-size: 1.8rem;
+  }
+
+  .carousel p {
+    font-size: 1rem;
+  }
+
+  .carousel img {
+    max-height: 30vh !important;
+    object-fit: contain !important;
+  }
+
+  .carousel .btn {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+
+
+}
