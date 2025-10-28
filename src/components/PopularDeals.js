@@ -8,7 +8,7 @@ const PopularDeals = () => {
   useEffect(() => {
     const fetchPopular = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/laptops');
+        const res = await axios.get('${process.env.REACT_APP_API_URL}/api/laptops');
         const filtered = res.data.filter(laptop => laptop.isPopular === true);
         setPopularLaptops(filtered);
       } catch (err) {
