@@ -158,7 +158,7 @@ const ContactUs = () => {
           <div style={styles.infoHeading}>Contact Information</div>
           <div style={styles.infoText}>
             77 Baker Street<br />
-            Dehradun, 01855<br />
+            Dehradun, 248121<br />
             India<br /><br />
             Call Us: +91 813 5341 6100<br /><br />
             We are open from Monday - Friday<br />
