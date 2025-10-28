@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api/laptops';
+const API = 'process.env.REACT_APP_API_URL/api/laptops';
 
 export const fetchLaptops = async () => {
   const res = await axios.get(API);
