@@ -15,7 +15,7 @@ export default function ProductDetailPage() {
   useEffect(() => {
     if (!id) return;
 
-    axios.get(`http://localhost:5000/api/laptops/${id}`)
+    axios.get(`${process.env.REACT_APP_API_URL}/api/laptops/${id}`)
       .then((res) => setProduct(res.data))
       .catch((err) => console.error("❌ Fetch error:", err));
   }, [id]);
