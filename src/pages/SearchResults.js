@@ -16,7 +16,7 @@ function SearchResults() {
   useEffect(() => {
     const fetchResults = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/laptops/search?query=${query}`);
+        const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/laptops/search?query=${query}`);
         console.log("✅ Search Results:", res.data);
         setResults(res.data);
       } catch (error) {
