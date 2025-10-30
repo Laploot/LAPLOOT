@@ -48,7 +48,7 @@ const AdminUpload = () => {
     });
 
     try {
-      const res = await axios.post('${process.env.REACT_APP_API_URL}/api/laptops', data, {
+      const res = await axios.post(`${process.env.REACT_APP_API_URL}/api/laptops`, data, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
 
