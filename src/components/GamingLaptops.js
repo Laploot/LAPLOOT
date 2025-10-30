@@ -8,7 +8,7 @@ const StudentEssentials = () => {
   useEffect(() => {
     const fetchLaptops = async () => {
       try {
-        const res = await axios.get('${process.env.REACT_APP_API_URL}/api/laptops');
+        const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/laptops`);
         const studentLaptops = res.data.filter(
           (laptop) => laptop.category.toLowerCase() === 'gaming'
         );
