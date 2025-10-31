@@ -16,7 +16,7 @@ app.use('/api/laptops', require('./routes/laptopRoutes'));
 // MongoDB connection
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
-    console.log("✅ MongoDB connected);
+    console.log("✅ MongoDB connected");
     app.listen(PORT, () => {
       console.log(`🚀 Server running on http://localhost:${PORT}`);
     });
