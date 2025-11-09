@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import emailjs from "emailjs-com";
 import SuccessPopup from "./SuccessPopup"; // ✅ Added
-//import "./BuyNow.css";
+import "./BuyNow.css";
 
 export default function BuyNow() {
   const location = useLocation();
