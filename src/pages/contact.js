@@ -157,10 +157,10 @@ const ContactUs = () => {
         <div style={styles.infoSection}>
           <div style={styles.infoHeading}>Contact Information</div>
           <div style={styles.infoText}>
-            77 Baker Street<br />
-            Dehradun, 248121<br />
+            haridwar bypass road<br />
+            ,Near Bangalikhoti Chowk Dehradun-248001<br />
             India<br /><br />
-            Call Us: +91 813 5341 6100<br /><br />
+            Call Us: +91 93686 44652<br /><br />
             We are open from Monday - Friday<br />
             08:00 am - 05:00 pm
           </div>
@@ -168,7 +168,13 @@ const ContactUs = () => {
           <div style={styles.socialText}>Follow Us</div>
           <div style={styles.socialLinks}>
             <span>Facebook</span>
-            <span>Instagram</span>
+            <a
+  href="https://instagram-laploot.in"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <span>Instagram</span>
+</a>
             <span>Vimeo</span>
           </div>
         </div>
