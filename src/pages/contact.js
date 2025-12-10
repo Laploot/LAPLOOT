@@ -169,7 +169,7 @@ const ContactUs = () => {
           <div style={styles.socialLinks}>
             <span>Facebook</span>
             <a
-  href="https://instagram-laploot.in"
+  href="https://www.instagram.com/laploot.in?igsh=MThqMHZjYTNubGQwdw%3D%3D&utm_source=qr"
   target="_blank"
   rel="noopener noreferrer"
 >
